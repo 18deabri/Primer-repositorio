@@ -1,0 +1,78 @@
+body {   
+    /*background-color: brown;   paso 18*/
+  
+    /* paso 19 */
+    /* background-color: burlywood; */
+    background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg); /* paso 28 */
+    font-family: sans-serif;  /* paso 53 */
+  } 
+  
+  h1, h2 {
+    font-family: Impact,serif; /* paso 54 y 55 */
+  }
+  
+  h1, h2, p {   /* paso 14 */
+    text-align: center;
+  }
+  
+  /* A�adir los tama�os de fuente para h1 y h2 paso 58*/
+  h1 {
+    font-size: 40px;
+  }
+  
+  h2 {
+    font-size: 30px;
+  }
+  
+  
+  
+  /*#menu {
+    
+    width: 300px; } paso 21 */
+  
+    .menu {   /* paso 26 */
+    width: 80%;
+    background-color: burlywood; /* paso 23 */
+  
+    margin-left: auto;  /*paso 25 */
+    margin-right: auto;
+  
+    /*padding-left:20px;     paso 51 
+    padding-right:20px;
+  
+    padding-top: 20px;     paso 52 
+    padding-bottom: 20px; */
+  
+    padding: 20px;  /* paso 52 */
+  
+    max-width: 500px /* paso 53 */
+  
+  }
+  
+  .item p {
+    display: inline-block;
+  }
+  
+  /* .flavor {     paso 33 
+    text-align: left;
+    /* width: 49%;  paso 36 
+    width: 50%;   
+    width: 75%; paso 43 
+    
+  }  */
+  
+  .flavor,.dessert{
+    text-align: left;
+    width: 75%;
+  }
+  
+  
+  .price {
+    text-align: right;
+    /*width: 50%;*/
+    width: 25%
+  }
+  
+  .established {    /* paso 56 */
+    font-style: italic;
+  }
